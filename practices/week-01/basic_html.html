@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Meta information untuk browser dan mesin pencari -->
+    <meta charset="UTF-8">          <!-- Encoding karakter UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <meta name="description" content="Dashboard analisis data sains"> <!-- SEO -->
+    <meta name="author" content="Nama Penulis"> <!-- Author information -->
+    <title>Belajar HTML</title> <!-- Title muncul di tab -->
+    
+    <!-- Link ke resources eksternal -->
+    <link rel="stylesheet" href="style.css"> <!-- CSS eksternal -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Icon tab browser -->
+    
+    <!-- Script internal (lebih baik di akhir body) -->
+    <style>
+        /* CSS internal - untuk styling awal */
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Seluruh konten visual halaman ditempatkan di sini -->
+    <header>
+  HEADER
+    </header>
+    <main> ini adalah bagian content</main>
+
+
+    <br>
+    <!-- Heading: Hierarki judul (h1-h6) -->
+<h1>Judul Utama (Hanya 1 per halaman)</h1>
+<h2>Judul Sub-bagian</h2>
+<h3>Judul Sub-sub-bagian</h3>
+<h4>Judul Level 4</h4>
+<h5>Judul Level 5</h5>
+<h6>Judul Level 6</h6>
+
+<!-- Paragraf -->
+<p>Ini adalah paragraf teks. Paragraf digunakan untuk 
+   menampilkan blok teks yang panjang dan terstruktur.</p>
+
+<!-- Span: Inline container untuk styling -->
+<p>Nilai metrik: <span class="value">Rp 45.200.000</span></p>
+<p>Status: <span style="color: green;">Completed</span></p>
+
+<!-- Formatting teks -->
+<strong>Teks penting (bold)</strong>
+<em>Teks miring (italic)</em>
+<u>Teks bergaris bawah</u>
+<mark>Teks yang di-highlight</mark>
+<small>Teks dengan ukuran lebih kecil</small>
+<del>Teks yang dicoret</del>
+<ins>Teks yang ditambahkan</ins>
+<sub>Subscript</sub>
+<sup>Superscript</sup>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- Struktur dasar tabel -->
+<table>
+    <caption>Laporan Transaksi Bulanan</caption> <!-- Judul tabel (opsional) -->
+    
+    <thead> <!-- Header tabel -->
+        <tr> <!-- Baris header -->
+            <th>ID Transaksi</th>
+            <th>Tanggal</th>
+            <th>Pelanggan</th>
+            <th>Nominal</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    
+    <tbody> <!-- Body tabel (data) -->
+        <tr>
+            <td>#TRX-001</td>
+            <td>2026-08-28</td>
+            <td>Budi Santoso</td>
+            <td>Rp 350.000</td>
+            <td>Completed</td>
+        </tr>
+        <tr>
+            <td>#TRX-002</td>
+            <td>2026-08-28</td>
+            <td>Siti Aminah</td>
+            <td>Rp 120.500</td>
+            <td>Pending</td>
+        </tr>
+    </tbody>
+    
+    <tfoot> <!-- Footer tabel (total/summary) -->
+        <tr>
+            <td colspan="3"><strong>Total</strong></td>
+            <td><strong>Rp 470.500</strong></td>
+            <td></td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- Struktur dasar form -->
+<form action="/submit" method="POST">
+    <!-- Text Input -->
+    <label for="nama">Nama Lengkap:</label>
+    <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
+    
+    <br/>
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="user@example.com">
+    
+    <br/>
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    
+    <br/>
+    <!-- Number Input -->
+    <label for="usia">Usia:</label>
+    <input type="number" id="usia" name="usia" min="0" max="100">
+    
+    <!-- Date Input -->
+    <label for="tanggal">Tanggal:</label>
+    <input type="date" id="tanggal" name="tanggal">
+    
+    <br/>
+    <!-- Search Input -->
+    <label for="cari">Cari Data:</label>
+    <input type="search" id="cari" name="cari" placeholder="Ketik keyword...">
+    
+    <br/>
+    <!-- Select Dropdown -->
+    <label for="kategori">Kategori:</label>
+    <select id="kategori" name="kategori">
+        <option value="">-- Pilih Kategori --</option>
+        <option value="makanan">Makanan</option>
+        <option value="minuman">Minuman</option>
+        <option value="elektronik">Elektronik</option>
+    </select>
+    
+    <br/>
+    <!-- Radio Buttons -->
+    <fieldset>
+        <legend>Jenis Kelamin:</legend>
+        <input type="radio" id="pria" name="jk" value="pria">
+        <label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="jk" value="wanita">
+        <label for="wanita">Wanita</label>
+    </fieldset>
+    
+    <br/>
+    <!-- Checkbox -->
+    <input type="checkbox" id="setuju" name="setuju" value="ya">
+    <label for="setuju">Saya setuju dengan syarat & ketentuan</label>
+    
+    <br/>
+    <!-- Textarea -->
+    <label for="catatan">Catatan:</label>
+    <textarea id="catatan" name="catatan" rows="4" cols="50" 
+              placeholder="Tulis catatan di sini..."></textarea>
+    
+              <br/>
+    <!-- Button -->
+    <button type="submit">Kirim Data</button>
+    <button type="reset">Reset</button>
+    <button type="button">Tombol Biasa</button>
+</form>
+
+
+    <footer>ini adalah bagian footer</footer>
+
+
+    
+    
+    <!-- Script ditempatkan di akhir body untuk performa -->
+    <!-- <script src="script.js"></script> -->
+     <script>
+        // alert("Hello World");
+     </script>
+</body>
+</html>
