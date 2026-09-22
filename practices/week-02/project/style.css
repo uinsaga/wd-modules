@@ -1,0 +1,18 @@
+   body {
+       max-width: 1200px;
+   }
+
+   h1 {
+       text-align: center;
+       color: blueviolet;
+   }
+
+   ul {
+       text-align: center;
+   }
+
+   li {
+       float: right;
+       margin-right: 10px;
+       list-style: none;
+   }
