@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Analisis Penjualan — JS Data Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard-wrapper">
+
+        <!-- HEADER -->
+        <header id="main-header">
+            <h1 id="judul-dashboard">📊 Dashboard Analisis Penjualan</h1>
+            <p class="subtitle" id="sub-judul">Ringkasan Performa &amp; Input Data Real-Time — Program Studi Sains Data
+            </p>
+        </header>
+
+        <!-- KARTU KPI METRICS -->
+        <section class="metrics-section mt-10">
+            <div class="metric-card" id="card-pendapatan">
+                <h3>Total Pendapatan</h3>
+                <p class="metric-value" id="kpi-pendapatan">Rp 0</p>
+                <p class="metric-change positive" id="change-pendapatan">▲ Data Real-Time</p>
+            </div>
+            <div class="metric-card" id="card-pesanan">
+                <h3>Total Pesanan</h3>
+                <p class="metric-value" id="kpi-pesanan">0</p>
+                <p class="metric-change positive">▲ Data Real-Time</p>
+            </div>
+            <div class="metric-card" id="card-rata-rata">
+                <h3>Rata-rata Nilai Pesanan</h3>
+                <p class="metric-value" id="kpi-rata-rata">Rp 0</p>
+                <p class="metric-change negative">▼ Data Real-Time</p>
+            </div>
+        </section>
+
+        <!-- TABEL DATA & CHART PLACEHOLDER -->
+        <main class="main-content mt-10">
+            <section class="card-box">
+                <div class="table-header-flex">
+                    <h2>Data Penjualan per Kategori</h2>
+                    <span id="total-record-badge" class="badge-info">0 Records</span>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Kategori Produk</th>
+                            <th>Terjual</th>
+                            <th>Pendapatan (Rp)</th>
+                            <th>Kontribusi (%)</th>
+                        </tr>
+                    </thead>
+                    <!-- ELEMEN TBODY DIKOSONGKAN -->
+                    <tbody id="tabel-body"></tbody>
+                </table>
+            </section>
+
+            <section class="card-box">
+                <h2>Visualisasi Tren Penjualan</h2>
+                <div class="chart-placeholder" id="area-chart">
+                    📈 [ Area Grafik Chart.js / Plotly — Pertemuan Depan ]
+                </div>
+            </section>
+        </main>
+
+        <!-- SIDEBAR FORM INPUT -->
+        <aside class="sidebar-content mt-10">
+            <section class="card-box">
+                <h2>Tambah Data Penjualan</h2>
+                <form id="form-penjualan">
+                    <div class="form-group">
+                        <label for="kategori">Kategori Produk:</label>
+                        <input type="text" id="kategori" placeholder="Contoh: Otomotif">
+                    </div>
+                    <div class="form-group">
+                        <label for="jumlah">Jumlah Terjual:</label>
+                        <input type="number" id="jumlah" placeholder="Contoh: 1500">
+                    </div>
+                    <div class="form-group">
+                        <label for="pendapatan">Total Pendapatan (Rp):</label>
+                        <input type="number" id="pendapatan" placeholder="Contoh: 250000000">
+                    </div>
+                    <button type="submit" class="btn-primary">Simpan Transaksi</button>
+                </form>
+            </section>
+        </aside>
+
+    </div>
+
+    <!-- SCRIPT JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+
+</html>

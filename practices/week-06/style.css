@@ -1,0 +1,97 @@
+/* ============================================================
+   STYLING MANIPULASI DOM & INTERAKSI (P6)
+   ============================================================ */
+.table-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.table-header-flex h2 {
+    margin-bottom: 0;
+}
+
+.badge-info {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.metric-card.highlight {
+    background-color: #f0fdf4;
+    border-left-color: #22c55e;
+    transition: all 0.3s ease;
+}
+
+.row-top-performer {
+    background-color: #f0f9ff !important;
+    font-weight: 600;
+}
+
+.metrics-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.metrics-section .metric-card {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: rgb(239, 214, 167);
+}
+
+.data-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 5cm;
+}
+
+.data-table thead tr {
+    background-color: #2563eb;
+}
+
+.data-table thead th {
+    color: #ffffff;
+}
+
+.data-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.data-table tbody td {
+    padding: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.card-box{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.main-content{
+    display: flex;
+    gap: 20px;
+   
+}
+
+.main-content section{
+    background-color: rgb(213, 220, 255);
+}
+
+.metric-value{
+    font-size: 20px;
+    font-weight: bold;
+}
