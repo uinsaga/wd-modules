@@ -1,18 +1,18 @@
-# 📝 UJIAN TENGAH SEMESTER (UTS)
+# UJIAN TENGAH SEMESTER (UTS)
 **Mata Kuliah:** Desain Web & Visualisasi Data  
 **Program Studi:** Sains Data (Semester 3)  
-**Model Pengerjaan:** Tim 2 Orang (*Pair Programming: Driver & Navigator*)  
+**Model Pengerjaan:** Tim 2 Orang
 **Tema Project:** *Dashboard Pemantauan Posyandu & Deteksi Stunting Balita*  
-**Teknologi:** Murni HTML5 + CSS Grid/Flexbox + JavaScript DOM (Tanpa Framework/Bootstrap & Tanpa AI)
+**Teknologi:** Murni HTML5 + CSS Grid/Flexbox + JavaScript DOM 
 
 ---
 
-## 🎯 Deskripsi Tugas
-Bekerja sama dalam tim 2 orang (*Pair Programming*) untuk merancang dan membangun halaman web **Dashboard Posyandu** dari nol. Dashboard ini digunakan untuk memantau data tumbuh kembang balita dan mendeteksi status stunting secara otomatis berdasarkan tinggi badan anak terhadap usianya.
+## Deskripsi Tugas
+Bekerja sama dalam tim 2 orang untuk merancang dan membangun halaman web **Dashboard Posyandu** dari nol. Dashboard ini digunakan untuk memantau data tumbuh kembang balita dan mendeteksi status stunting secara otomatis berdasarkan tinggi badan anak terhadap usianya.
 
 ---
 
-## 📂 Starter Dataset (Wajib disalin ke `script.js`)
+## Starter Dataset (Wajib disalin ke `script.js`)
 
 Setiap tim **wajib** menggunakan data awal 20 balita berikut di dalam file JavaScript Anda:
 
@@ -43,7 +43,7 @@ const rawDataset = [
 
 ---
 
-## 📏 Aturan Deteksi Stunting (Logika JavaScript)
+## Aturan Deteksi Stunting (Logika JavaScript)
 
 Sistem harus mengevaluasi status balita secara otomatis saat data dimuat awal maupun saat ada penambahan data baru dari form:
 
@@ -54,7 +54,7 @@ Sistem harus mengevaluasi status balita secara otomatis saat data dimuat awal ma
 
 ---
 
-## 🛠️ Spesifikasi Fitur & Bobot Penilaian
+## Spesifikasi Fitur & Bobot Penilaian
 
 ### 1. Tata Letak & Responsivitas Layout (Bobot 30%)
 - Gunakan murni **CSS Grid** atau **Flexbox** buatan sendiri (DILARANG menggunakan Bootstrap, Tailwind, atau framework CSS lainnya).
@@ -86,7 +86,34 @@ Sistem harus mengevaluasi status balita secara otomatis saat data dimuat awal ma
 
 ---
 
-## ❌ Aturan Integritas Akademik
+## ❌ Aturan Pengerjaan 
 1. **Dilarang keras** menggunakan AI Code Generator (ChatGPT, Claude, GitHub Copilot, dll).
-2. **Dilarang keras** menggunakan Framework CSS (Bootstrap/Tailwind) maupun Library JavaScript eksternal.
-3. Setiap tim menuliskan nama anggota tim beserta perannya (*Driver* & *Navigator*) pada bagian komentar paling atas file `index.html` dan `script.js`.
+2. **Dilarang keras** menggunakan Library JavaScript eksternal.
+
+## 📩 Instruksi Pengumpulan Tugas
+
+Tugas dikumpulkan dalam bentuk **satu file Laporan PDF** yang diunggah ke **Google Classroom** oleh salah satu perwakilan tim. *(Dilarang keras mengumpulkan file `.zip` / `.rar`)*.
+
+Laporan PDF yang dikumpulkan **wajib** memuat poin-poin berikut secara berurutan:
+
+1. **Identitas Tim**
+* Nama Lengkap dan NIM Anggota 1 (Peran: *Driver*)
+* Nama Lengkap dan NIM Anggota 2 (Peran: *Navigator*)
+
+2. **Bukti Screenshot Tampilan (Hasil Uji Coba)**
+* Lampirkan *screenshot* tampilan utama Dashboard Posyandu saat berhasil dimuat.
+* Lampirkan *screenshot* saat form tambah data balita berhasil digunakan.
+
+3. **Link Project JSFiddle (PENTING)** 
+* Pindahkan seluruh kode HTML, CSS, dan JavaScript tim Anda ke **[https://jsfiddle.net](https://jsfiddle.net)**.
+* Klik tombol **Save** di JSFiddle untuk menghasilkan link publik.
+* Sertakan/tempelkan link JSFiddle aktif tersebut di dalam laporan PDF (pastikan link dapat diklik langsung oleh Dosen).
+
+---
+
+### 💡 Petunjuk Singkat Pengisian di JSFiddle:
+
+* Tempelkan kode HTML ke kolom **HTML** *(tidak perlu tag `<html>` atau `<head>`)*.
+* Tempelkan kode styling ke kolom **CSS**.
+* Tempelkan logika JS dan `rawDataset` 20 balita ke kolom **JavaScript**.
+* Klik **Run** untuk menguji tampilan, lalu klik **Save** untuk mendapatkan link URL-nya.
