@@ -87,8 +87,8 @@ Sistem harus mengevaluasi status balita secara otomatis saat data dimuat awal ma
 ---
 
 ## ❌ Aturan Pengerjaan 
-1. **Dilarang keras** menggunakan AI Code Generator (ChatGPT, Claude, GitHub Copilot, dll).
-2. **Dilarang keras** menggunakan Library JavaScript eksternal.
+1. Silakan gunakan AI (seperti ChatGPT atau Claude) hanya untuk membantu proses menyusun konsep, ide, atau penulisan teks. Namun, dilarang keras menggunakan AI jenis apa pun untuk membuat, menyalin, atau menghasilkan kode pemrograman (code generation).
+2. Tidak diperkenankan menggunakan Library JavaScript eksternal.
 
 ## 📩 Instruksi Pengumpulan Tugas
 
