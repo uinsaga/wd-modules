@@ -24,7 +24,7 @@ P10 (Chart.js dasar) → P11 (Bootstrap refactor) → P12 (Polish: styling + mul
 
 ---
 
-📚 BAGIAN 1 — Teori: Chart "Siap Presentasi"
+📚 BAGIAN 1 — Teori: Chart
 
 1.1 Mengapa Polish Itu Penting?
 
@@ -90,7 +90,7 @@ Chart ketiga adalah highlight polish: menggunakan dua Y-axis (kiri = Rupiah, kan
 
 ---
 
-🛠️ BAGIAN 2 — Praktikum A: Chart.js Formatting (⏱ 60 menit)
+🛠️ BAGIAN 2 — Praktikum A: Chart.js Formatting
 
 Target: Menambahkan format Rupiah, palette Bootstrap, dan styling legend/tooltip ke 2 chart yang sudah ada dari P11.
 
@@ -297,7 +297,7 @@ if (doughnutChartInstance) {
 
 ---
 
-🛠️ BAGIAN 3 — Praktikum B: Multi-Chart Composition (⏱ 50 menit)
+🛠️ BAGIAN 3 — Praktikum B: Multi-Chart Composition
 
 Target: Menambahkan chart ketiga (Line Chart dengan dual Y-axis) dan menyusunnya rapi di Bootstrap Grid bersama 2 chart sebelumnya.
 
@@ -489,7 +489,7 @@ function updateDashboard() {
 
 ---
 
-🛠️ BAGIAN 4 — Praktikum C: Consistency & Edge Cases (⏱ 30 menit)
+🛠️ BAGIAN 4 — Praktikum C: Consistency & Edge Cases
 
 Target: Menangani edge case (data kosong, label panjang) dan memastikan visual konsisten. Ini bagian yang membedakan dashboard "jalan" dengan dashboard "layak portofolio".
 
