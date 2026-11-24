@@ -715,20 +715,6 @@ Semua diunggah ke LMS paling lambat sebelum sesi UAS dimulai. Keterlambatan: pot
 
 ---
 
-## Checklist Akhir Pertemuan 13
-
-☐ `data.json` dibuat dengan struktur `{ meta, penjualan }`.
-☐ `index.html` punya `#loading-state`, `#error-state`, `#btn-refresh`, `#btn-retry`, `#meta-*`, `#insight-text`.
-☐ `script.js` punya `showLoading()`, `showError()`, `showSuccess()`, `fetchData()`, `transformProductsToSales()`, `generateInsight()`.
-☐ Tombol Refresh & Retry ter-*wiring* ke `fetchData`.
-☐ Chart dan tabel terisi dari hasil `fetch` (bukan hardcoded).
-☐ Mode `'api'` → kategori dari dummyjson muncul; mode `'local'` → kategori dari `data.json` muncul.
-☐ Simulasi error (rename `data.json` atau matikan internet) → alert merah muncul rapi + tombol "Coba Lagi" berfungsi.
-☐ Card "Insight Otomatis" berisi kalimat dinamis, bukan placeholder.
-☐ Laporan diskusi (kenapa data form hilang setelah refresh) ditulis di laporan pribadi.
-
----
-
 ## Referensi
 
 - MDN Web Docs — *Using Fetch API*. https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
